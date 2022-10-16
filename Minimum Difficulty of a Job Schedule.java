@@ -26,3 +26,4 @@ class Solution {
         }
         return dp[d][jobDifficulty.length];
     }
+}
