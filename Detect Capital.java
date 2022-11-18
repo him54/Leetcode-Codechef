@@ -1,3 +1,5 @@
+import java.util.*;
+import java.io.*;
 class Solution {
     public boolean detectCapitalUse(String word) {
         if(word.length() <= 1)
