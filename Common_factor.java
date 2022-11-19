@@ -1,3 +1,5 @@
+import java.util.*;
+import java.io.*;
 class Solution {
     public int commonFactors(int a, int b) {
         int x1 = 0;
