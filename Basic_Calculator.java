@@ -1,4 +1,4 @@
-
+//TC - O(n)
 import java.util.*;
 import java.io.*;
 class Solution {
