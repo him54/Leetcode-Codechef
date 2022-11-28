@@ -1,3 +1,5 @@
+import java.util.*;
+import java.io.*
 class Solution {
     public long check(int mid,int[] arr,int[] cost){
          long sum=0;
