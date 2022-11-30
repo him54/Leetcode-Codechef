@@ -13,7 +13,7 @@ public class Main {
         
     public static int countpath(int n){
             
-        if(n < 0)
+        if(n < 0)// if n is less than zero
         {
             return 0;
             
