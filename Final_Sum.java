@@ -18,60 +18,32 @@ class Codechef
 
 		int T = sc.nextInt();
 
-		while(T-->0)
-
+		while(T-->0
 		{
-
 		    int N = sc.nextInt();
-
 		    int Q = sc.nextInt();
-
 		    int final_sum = 0;
-
 		    int[] arr = new int[N];
-
 		    for(int i = 0; i<arr.length; i++)
-
 		    {
-
 		        arr[i] = sc.nextInt();
-
 		    }
-
 		    for(int i = 0; i<N; i++){
-
 		        final_sum += arr[i];
-
 		    }
-
 		    while(Q-->0){
-
 		        int L = sc.nextInt();
-
 		        int R = sc.nextInt();
+		        int s = R-L+1;
 
-		        int sub = R-L+1;
-
-		        if(sub%2 == 0)
-
+		        if(s%2 == 0)
 		        {
-
 		            continue;
-
 		        }else{
-
 		            final_sum++;
-
 		        }
-
 		    }
-
 		    System.out.println(final_sum);
-
-		    
-
 		}
-
 	}
-
 }
