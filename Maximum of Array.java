@@ -17,7 +17,7 @@ public class Main {
 
     public static int maxOfArray(int[] arr, int idx){
         if(idx == arr.length - 1)
-        { //base code
+        { 
             return arr[idx];
         }
         
