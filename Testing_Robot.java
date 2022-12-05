@@ -46,13 +46,13 @@ class Codechef
 
 		        }
 
-		        if (l<start){
+		        if (l < start){
 
 		            l = start;
 
 		        }
 
-		        if(r>start){
+		        if(r > start){
 
 		            r = start;
 
