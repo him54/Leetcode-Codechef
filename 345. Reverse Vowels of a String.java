@@ -1,11 +1,11 @@
-import java.util.*;
+//import java.util.*;
 class Solution {
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();
         int left = 0;
         int right = arr.length-1;
         
-        while(left<right)
+        while(left < right)
         {
             while(left<right && isVowel(arr, left) == false)
             {
@@ -15,7 +15,7 @@ class Solution {
             {
                 right--;
             }
-            char temp = arr[left]; 
+            char temp = arr[left];  // Swap
             arr[left] = arr[right];
             arr[right] = temp;
             
