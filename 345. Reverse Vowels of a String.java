@@ -7,18 +7,17 @@ class Solution {
         
         while(left < right)
         {
-            while(left<right && isVowel(arr, left) == false)
+            while(left < right && isVowel(arr, left) == false)
             {
                 left++;            
             }
-            while(left<right && isVowel(arr, right) == false)
+            while(left < right && isVowel(arr, right) == false)
             {
                 right--;
             }
             char temp = arr[left];  // Swap
             arr[left] = arr[right];
             arr[right] = temp;
-            
             left++;
             right--;
         }
