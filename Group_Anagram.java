@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
