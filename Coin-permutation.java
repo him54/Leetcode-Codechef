@@ -18,7 +18,7 @@ public class Main {
     dp[0] = 1;
     for(int amt = 1; amt<dp.length; amt++){
         for(int coin : coins){
-            if(coin <= amt)
+            if(coin<=amt)
             {
                 int ramt = amt - coin;
                 dp[amt] += dp[ramt];
