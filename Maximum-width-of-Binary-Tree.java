@@ -35,6 +35,6 @@
         }
         
         max = Math.max(max, id - hm.get(depth) + 1);
-        //System.out.println("depth " + depth + " id " + id + " max " + max);
+        System.out.println("depth " + depth + " id " + id + " max " + max);
     }
 }
