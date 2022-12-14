@@ -1,3 +1,4 @@
+import java.io.*;
 class Solution {
     public int partitionString(String s) {
         int min = 0;
