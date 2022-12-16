@@ -1,5 +1,4 @@
-class MyQueue {
-
+class MyQueue 
     Stack<Integer> st;
 	public MyQueue() {
 		st = new Stack<>();
