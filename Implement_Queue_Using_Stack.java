@@ -23,7 +23,6 @@ class MyQueue {
 	public boolean empty() {
 		return st.isEmpty() ? true : false;
 	}
-
 }
 
 /**
