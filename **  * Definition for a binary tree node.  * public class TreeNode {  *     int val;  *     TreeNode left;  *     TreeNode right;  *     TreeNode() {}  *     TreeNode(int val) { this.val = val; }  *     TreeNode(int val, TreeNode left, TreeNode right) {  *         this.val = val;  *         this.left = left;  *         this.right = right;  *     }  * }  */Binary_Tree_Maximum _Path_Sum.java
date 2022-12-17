@@ -22,7 +22,7 @@ class Solution {
     }
     
     private int val(TreeNode root){
-        if(root == null)
+        if(root = null)
         {
             return 0;
         }
