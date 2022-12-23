@@ -4,7 +4,7 @@ public class Main{
     {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        while(T-->0
+        while(T-->0)
         {
             int s = sc.nextInt();
             int x = sc.nextInt();
