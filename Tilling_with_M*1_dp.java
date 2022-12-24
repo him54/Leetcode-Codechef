@@ -11,15 +11,14 @@ public class Main {
     int[] dp = new int[n +1];
     for(int i = 1; i<=n; i++)
     {
-        if(i<m){
+        if(i<m)
+        {
             dp[i] = 1;
         }
         else if(i == m){
-            dp[i] = 2;
-            
+            dp[i] = 2;     
         }
-        else
-        {
+        else{
             dp[i] = dp[i - 1] + dp[i - m];
         }
     }
