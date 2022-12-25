@@ -17,9 +17,9 @@ class Main{
             }
             else{
                 int d = N - 9;
-                if(d %2 == 0 || d%7 == 0)
+                if(d %2 == 0 || d%7 == 0);
                 {
-                    System.out.println("YES")°
+                    System.out.println("YES");
                 }
                 else{
                     System.out.println("NO");
