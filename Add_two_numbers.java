@@ -22,7 +22,8 @@ class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-         int carry = 0, sum;
+         int carry = 0,
+         int sum;
 
         ListNode head = new ListNode(0);
 
