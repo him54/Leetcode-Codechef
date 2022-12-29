@@ -29,7 +29,7 @@ class Solution {
                     length = length +  4*min;
                 }
                 hm[i][j]=0;
-            }
+            
         }
         if(odd == 1)
         {
