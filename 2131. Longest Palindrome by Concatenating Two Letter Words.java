@@ -2,7 +2,7 @@ import java.io.*;
 class Solution {
     public int longestPalindrome(String[] words) {
         int[][] hm = new int[26][26];
-        int max = 0;
+        int max = 0
         for(String word : words){
             hm[word.charAt(0)-'a'][word.charAt(1)-'a']++;
         }
@@ -29,7 +29,7 @@ class Solution {
                     length = length +  4*min;
                 }
                 hm[i][j]=0;
-            
+            }
         }
         if(odd == 1)
         {
