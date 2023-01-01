@@ -3,7 +3,7 @@ class Solution {
     public boolean wordPattern(String pattern, String s) {
         String[] arr = s.split(" ");
         int n = pattern.length();
-        if(arr.length != n)
+        if(arr.length!=n)
         {
             return false;
         }
