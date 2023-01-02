@@ -11,7 +11,7 @@ class Solution {
         for(int i = 0; i<10; i++){
             if(arr[i] != 0){
                 if(num % i == 0){
-                    div+=arr[i];
+                    div += arr[i];
                 }
             }  
         }
