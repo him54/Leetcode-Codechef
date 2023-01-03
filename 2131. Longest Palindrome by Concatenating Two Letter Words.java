@@ -20,7 +20,7 @@ class Solution {
                 {
                     if(hm[i][j]%2!=0)
                     {
-                        odd=1;
+                        odd = 1;
                     }
                     length += 2*(hm[i][j]-(hm[i][j] % 2 == 0 ?  0 : 1));
                 }else if(hm[j][i] != 0)
