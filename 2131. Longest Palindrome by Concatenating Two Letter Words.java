@@ -18,7 +18,7 @@ class Solution {
                 }
                 if(i==j)
                 {
-                    if(hm[i][j]%2!=0
+                    if(hm[i][j]%2!=0)
                     {
                         odd=1;
                     }
