@@ -12,7 +12,7 @@ class Solution {
         {
             for(int j=0; j<26; j++)
             {
-                if(hm[i][j]==0)
+                if(hm[i][j] == 0)
                 {
                     continue;
                 }
