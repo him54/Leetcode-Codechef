@@ -25,7 +25,7 @@ class Main{
                     last = i;
                 }
             }
-            if(last < first)
+            if(last<first)
             {
                 System.out.println(first+(N-1-last)-1);
             }
