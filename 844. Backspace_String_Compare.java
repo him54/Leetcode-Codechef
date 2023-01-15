@@ -28,8 +28,6 @@ class Solution {
                 }
             }
         }
-         // System.out.println(st1);
-        //System.out.println(st2);
         if (st1.isEmpty() && st2.isEmpty())
         {
             return true;
