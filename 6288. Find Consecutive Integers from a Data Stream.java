@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class DataStream {
+class Solution{
     Queue<Integer> que;
     int n;
     int total = 0;
