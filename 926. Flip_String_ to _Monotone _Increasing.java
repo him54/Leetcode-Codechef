@@ -6,13 +6,12 @@ class Solution {
         int count2 = 0;//Zero to count
         int i = 0;
 
-        while(i<n && s.charAt(i) == '0')
-        {
+        while(i<n && s.charAt(i) == '0'){
             i++;
         }
-        for(; i<n; i++)
+        for(int t = 0; t<n; t++)
         {
-            char ch = s.charAt(i);
+            char ch = s.charAt(t)
             if(ch == '0'){
                 count2++;
             }
