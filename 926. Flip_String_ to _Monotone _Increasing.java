@@ -9,7 +9,7 @@ class Solution {
         while(i<n && s.charAt(i) == '0'){
             i++;
         }
-        for(int t = 0; t<n; t++)
+        for(int t = 0; t<n; t++);
         {
             char ch = s.charAt(t)
             if(ch == '0'){
