@@ -1,0 +1,19 @@
+class Solution {
+     private int gcd(int N1,int N2){
+        if(N2 == 0)
+        {
+            return N1;
+        }
+        return gcd(N2, N1 % N2);
+    }
+    public String gcdOfStrings(String str1, String str2) {
+        int n1 = str1.length();
+        int n2 = str2.length();
+
+        if(!((str1+str2).equals(str2+str1)))
+        {
+            return "";
+        } 
+        return str1.substring(0, gcd(n1,n2));
+    }
+}
