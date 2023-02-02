@@ -11,7 +11,7 @@ class Solution {
         }
         for(int t = 0; t<n; t++)
         {
-            char ch = s.charAt(t);
+            char ch = s.charAt(t)
             if(ch == '0'){
                 count2++;
             }
