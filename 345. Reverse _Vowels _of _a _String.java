@@ -23,7 +23,7 @@ class Solution {
         }
         String str = "";
         for(char ch : arr)
-        {
+        
             str += ch;
         }
         return str;      
