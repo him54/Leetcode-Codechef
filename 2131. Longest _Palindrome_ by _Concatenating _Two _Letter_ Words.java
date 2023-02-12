@@ -4,7 +4,7 @@ class Solution {
         int[][] hm = new int[26][26];
         int max = 0;
         for(String word : words){
-            hm[word.charAt(0)-'a'][word.charAt(1)-'a']++;
+            hm[word.charAt(0)-'a'][word.charAt(1)-'a']++
         }
         int length = 0;
         int odd = 0;
