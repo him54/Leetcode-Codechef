@@ -30,7 +30,7 @@ class Codechef
 		    }
 	        else if(count < val)
 	        {
-	            System.out.println(count*2+1)
+	            System.out.println(count*2+1);
 	        }
 	        else
 	        {
