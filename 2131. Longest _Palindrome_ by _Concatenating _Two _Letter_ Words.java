@@ -33,7 +33,7 @@ class Solution {
         }
         if(odd == 1)
         {
-            length = length + 2;
+            length = length + 2
         }
         return length;  
     }
