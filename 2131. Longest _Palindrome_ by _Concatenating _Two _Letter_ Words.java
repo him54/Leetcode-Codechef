@@ -28,7 +28,7 @@ class Solution {
                     int min = Math.min(hm[i][j], hm[j][i]);
                     length = length +  4*min;
                 }
-                hm[i][j]=0;
+                hm[i][j]=0
             }
         }
         if(odd == 1)
